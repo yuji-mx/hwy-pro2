@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #172a31; background: #f3f6f7; font-family: system-ui, sans-serif; }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .75rem; padding: 1rem 1.5rem; color: white; background: #153b43; }
+header a { color: white; }
+h1 { margin: 0; font-size: 1.25rem; }
+main { display: grid; grid-template-columns: minmax(16rem, 22rem) 1fr; gap: 1rem; padding: 1rem; }
+form, #map { background: white; border: 1px solid #cbd8dc; border-radius: .65rem; }
+form { padding: 1.25rem; }
+#map { height: max(28rem, calc(100vh - 6.5rem)); }
+select { display: block; width: 100%; margin: .5rem 0; }
+fieldset { border: 1px solid #cbd8dc; border-radius: .35rem; margin: 1rem 0; }
+fieldset label { display: block; margin: .45rem 0; }
+button, select { font: inherit; padding: .45rem .7rem; }
+button { cursor: pointer; }
+button:disabled { cursor: default; }
+button[type=submit] { background: #136858; color: white; border: 0; border-radius: .35rem; padding: .65rem 1rem; }
+button[type=submit]:disabled { background: #5e6d70; }
+#map-controls { display: flex; flex-wrap: wrap; gap: .45rem; }
+#result { overflow-wrap: anywhere; white-space: pre-wrap; }
+@media(max-width: 750px) { main { grid-template-columns: 1fr; } #map { height: 55vh; } }
+

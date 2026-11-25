@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "id": "OSM-155541691-4680423276",
+      "country": "JP",
+      "region": "大分県",
+      "name": "大分米良IC",
+      "lat": 33.200739,
+      "lon": 131.6342264,
+      "source": "© OpenStreetMap contributors (ODbL), https://www.openstreetmap.org/copyright",
+      "route": "E10",
+      "direction": "北西方向",
+      "review": {
+        "status": "pending",
+        "source": "国土地理院「全国最新写真（シームレス）」z18（画像取得 2026-11-22、撮影日未特定） https://maps.gsi.go.jp/help/use.html",
+        "imageryDate": "",
+        "reviewer": "Codex",
+        "note": "北西方向。ゼブラ末端の先に道路橋の影がかかり、その先で同じ外側車線が消失する位置を判読できない。",
+        "low": null,
+        "high": null,
+        "rise": null,
+        "gradeSource": "",
+        "mainSpeed": null,
+        "mainUnit": "km/h",
+        "mainSource": "",
+        "rampSpeed": null,
+        "rampUnit": "km/h",
+        "rampSource": ""
+      }
+    },
+    {
+      "id": "OSM-229034532-1679349289",
+      "country": "JP",
+      "region": "大分県",
+      "name": "大分米良IC",
+      "lat": 33.2005029,
+      "lon": 131.6346686,
+      "source": "© OpenStreetMap contributors (ODbL), https://www.openstreetmap.org/copyright",
+      "route": "E10",
+      "direction": "南東方向",
+      "review": {
+        "status": "estimated",
+        "source": "国土地理院「全国最新写真（シームレス）」z18（画像取得 2026-11-22、撮影日未特定） https://maps.gsi.go.jp/help/use.html",
+        "imageryDate": "",
+        "reviewer": "Codex",
+        "note": "南東方向。ループから本線へ入るゼブラ末端から、外側線と車線境界が寄り、下流で通常幅に戻る区間を写真上で概測。薄い区画線のため判読幅あり。",
+        "low": 125,
+        "high": 205,
+        "rise": null,
+        "gradeSource": "",
+        "mainSpeed": null,
+        "mainUnit": "km/h",
+        "mainSource": "",
+        "rampSpeed": null,
+        "rampUnit": "km/h",
+        "rampSource": "",
+        "path": [
+          [
+            131.6344958,
+            33.20072683
+          ],
+          [
+            131.63483165,
+            33.20048633
+          ],
+          [
+            131.63515594,
+            33.20023989
+          ],
+          [
+            131.63546486,
+            33.19999486
+          ],
+          [
+            131.63575181,
+            33.19975588
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OSM-34929361-40328108",
+      "country": "US",
+      "region": "オレゴン州",
+      "name": "I-5 Exit 244 (Jefferson)",
+      "lat": 44.7963817,
+      "lon": -123.0332126,
+      "source": "© OpenStreetMap contributors (ODbL), https://www.openstreetmap.org/copyright",
+      "route": "I 5;OR 99E",
+      "direction": "北方向",
+      "review": {
+        "status": "pending",
+        "source": "USDA NAIP / USGS The National Map（画像取得 2026-11-22、撮影日未特定） https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+        "imageryDate": "",
+        "reviewer": "Codex",
+        "note": "北方向。ランプが本線と並ぶ位置は確認できるが、明るい路面に重なる区画線が薄く、独立幅を失う位置を絞れない。",
+        "low": null,
+        "high": null,
+        "rise": null,
+        "gradeSource": "",
+        "mainSpeed": null,
+        "mainUnit": "mph",
+        "mainSource": "",
+        "rampSpeed": null,
+        "rampUnit": "mph",
+        "rampSource": ""
+      }
+    },
+    {
+      "id": "OSM-34929363-320774350",
+      "country": "US",
+      "region": "オレゴン州",
+      "name": "I-5 Exit 244 (Jefferson)",
+      "lat": 44.7897361,
+      "lon": -123.0364405,
+      "source": "© OpenStreetMap contributors (ODbL), https://www.openstreetmap.org/copyright",
+      "route": "I 5;OR 99E",
+      "direction": "南方向",
+      "review": {
+        "status": "pending",
+        "source": "USDA NAIP / USGS The National Map（画像取得 2026-11-22、撮影日未特定） https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+        "imageryDate": "",
+        "reviewer": "Codex",
+        "note": "南方向。樹影や車両と区画線が重なり、流入車線の境界を終点まで連続して追えない。",
+        "low": null,
+        "high": null,
+        "rise": null,
+        "gradeSource": "",
+        "mainSpeed": null,
+        "mainUnit": "mph",
+        "mainSource": "",
+        "rampSpeed": null,
+        "rampUnit": "mph",
+        "rampSource": ""
+      }
+    }
+  ]
+}
